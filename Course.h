@@ -5,18 +5,37 @@
 #include "Student.h"
 using namespace std;
 //#write your code here
+class course{
+private: 
+string coursecode;
+string coursename;
+int max;
+student*student;
+int current;
+public:
+course(){ 
+  coursecode ="";
+coursename="";
+ max=0;
+student*student;
+ current=0;
+}
+course(coursecode,coursename,max,student,current){
+  this->coursecode=coursecode;
+  this->coursename=coursename;
+  this->max=max;
+  this->current=current;
+}
+~course(){
+  delete[]student;
+}
 
 
 
 
 
 
-
-
-
-
-
-
+};
 
 
 #endif
