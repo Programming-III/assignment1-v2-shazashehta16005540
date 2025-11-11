@@ -17,7 +17,6 @@ course(){
   coursecode ="";
 coursename="";
  max=0;
-student*student;
  current=0;
 }
 course(coursecode,coursename,max,student,current){
