@@ -11,9 +11,18 @@ int yearLevel;
 string major;
 public:
 student():person(){
-yearlevel=
+yearlevel=0;
+ major=""; 
 }
-void display:
+student(yearlevel,major):person(name,id){
+  this->yearlevel= yearlevel;
+  this->major= major;
+}
+~student(){}
+void display(): display(){
+cout<<yearlevel<<endl;
+cout<<major<<endl;
+}
 
 
 
