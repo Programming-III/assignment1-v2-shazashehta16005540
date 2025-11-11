@@ -10,6 +10,9 @@ private:
 int yearLevel;
 string major;
 public:
+student():person(){
+yearlevel=
+}
 void display:
 
 
@@ -20,7 +23,7 @@ void display:
 
 
 
-
+};
 
 
 #endif
