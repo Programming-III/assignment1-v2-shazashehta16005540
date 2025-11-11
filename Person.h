@@ -10,12 +10,23 @@ protected :
 string name;
 int id;
 public:
+person(){
+name="";
+  id=0;
+}
+person(name,id){
+  this->name=name;
+  this->id=id;
+}
+~person(){
+  
+}
 void display()
 {
 cout<<"name:"<<name<<","<<"id:"<<id<<endl;
-
+}
   
-
+};
 
 
 
