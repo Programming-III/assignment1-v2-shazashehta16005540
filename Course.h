@@ -29,10 +29,17 @@ course(coursecode,coursename,max,student,current){
 ~course(){
   delete[]student;
 }
+void addstudent(const student& s){
+  
+}
+void displaycourseinfo(){
+  
+}
 
-
-
-
+cout<<coursecode<<endl;
+ cout<<coursename<<endl;
+cout<<max<<endl;
+cout<<current<<endl;
 
 
 };
