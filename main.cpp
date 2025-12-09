@@ -72,8 +72,14 @@ course operator +=(student&s){
 
 // ==================== Main Function ====================
 int main() {
+  instructor i("cs",5);
+  student s("cs",2);
   
 person*a[2];
-  a[0]=new student("omar",
+  a[0]=new student("omar",2,"info");
+  a[1]=new instructor("lina","cs",5);
+  a[0]->roleinfo();
+  a[1]->roleinfo();
+  
     return 0;
 }
