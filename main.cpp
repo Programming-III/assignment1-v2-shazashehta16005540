@@ -68,7 +68,8 @@ virtual void roleinfo(){
 
 // ==================== Main Function ====================
 int main() {
-   instructor s1(
+   instructor s1("cs",5);
+  
     
     return 0;
 }
