@@ -73,6 +73,7 @@ course operator +=(student&s){
 // ==================== Main Function ====================
 int main() {
   
-    
+person*a[2];
+  a[0]=new student("omar",
     return 0;
 }
