@@ -23,7 +23,7 @@ void display(): display(){
 cout<<yearlevel<<endl;
 cout<<major<<endl;
 }
-
+friend student operator<<(ostream & out,student&s);
 
 
 
