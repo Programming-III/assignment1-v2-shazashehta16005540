@@ -47,7 +47,9 @@ course operator +=(student&s){
   return*this;
 }
 
-
+virtual void roleinfo(){
+  cout<<name<<endl;
+}
 // ==================== Instructor Class Implementation ====================
 
 
