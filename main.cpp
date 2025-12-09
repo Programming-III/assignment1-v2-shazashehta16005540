@@ -9,9 +9,15 @@
 using namespace std;
 
 // ==================== Person Class Implementation =========================
-
-
-
+virtual void roleinfo(){
+  cout<<name<<endl;
+}
+void student ::roleinfo(){
+cout<<major<<endl
+}
+void instructor ::roleinfo(){
+cout<<department<<endl;
+}
 
 
 
@@ -47,9 +53,7 @@ course operator +=(student&s){
   return*this;
 }
 
-virtual void roleinfo(){
-  cout<<name<<endl;
-}
+
 // ==================== Instructor Class Implementation ====================
 
 
@@ -68,7 +72,6 @@ virtual void roleinfo(){
 
 // ==================== Main Function ====================
 int main() {
-   instructor s1("cs",5);
   
     
     return 0;
